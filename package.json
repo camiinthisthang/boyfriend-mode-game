@@ -1,10 +1,9 @@
 {
-  "name": "react-miami-neon-nights",
+  "name": "boyfriend-mode-game",
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "start": "node server.js"
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
@@ -14,11 +13,7 @@
     "@fontsource/anton": "^5.3.0",
     "@fontsource/bowlby-one": "^5.3.0",
     "@fontsource/inter": "^5.3.0",
-    "@neon/realtime": "^0.2.1",
-    "@neondatabase/serverless": "^1.2.1",
-    "express": "^5.3.0",
-    "three": "^0.187.0",
-    "ws": "^8.23.0"
+    "three": "^0.187.0"
   },
   "devDependencies": {
     "vite": "^6.4.6"
