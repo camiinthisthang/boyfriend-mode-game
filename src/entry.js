@@ -9,6 +9,7 @@ import { showSetup } from './setup.js';
 
 const g = readGame();
 if (g) {
+  window.__defaultName = g.him;
   const k = document.querySelector('#splash .kicker');
   if (k) k.textContent = `${g.her} made this game for ${g.him}`;
   import('./main.js');

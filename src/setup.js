@@ -4,6 +4,7 @@ const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&l
 
 export function showSetup() {
   document.getElementById('splash')?.classList.add('hidden');
+  document.body.classList.add('in-setup');
   const el = document.createElement('div');
   el.className = 'setup';
   el.innerHTML = `
